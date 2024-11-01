@@ -1,4 +1,4 @@
-import .user_interface import message
+from .user_interface import message
 def counter(token):
     count = 0
     with open('corpus.txt', 'r') as f:
