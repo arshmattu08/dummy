@@ -1,4 +1,5 @@
 from .user_interface import message
+
 def counter(token):
     print('counter')
     count = 0
@@ -10,5 +11,6 @@ def counter(token):
             count+=1
     return count
 
-def report_count(token):
-    message(token)
+def report_count(token,count):
+    count = counter(token)
+    message(token,count)
