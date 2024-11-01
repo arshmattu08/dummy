@@ -12,5 +12,4 @@ def counter(token):
     return count
 
 def report_count(token):
-    count = counter(token)
-    message(token,count)
+    message(token)
