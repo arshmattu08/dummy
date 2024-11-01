@@ -1,2 +1,2 @@
-from .prompt import count,report_count
+from .prompt import counter,report_count
 from .user_interface import message
