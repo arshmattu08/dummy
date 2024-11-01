@@ -10,4 +10,5 @@ def counter(token):
     return count
 
 def report_count(token):
+    print(token)
     message(token)
