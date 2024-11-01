@@ -8,8 +8,7 @@ def counter(token):
     for el in data:
         if el == token:
             count+=1
-    return print(count)
+    return count
 
 def report_count(token):
-    print(token)
     message(token)
